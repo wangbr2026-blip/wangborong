@@ -1,0 +1,45 @@
+{
+  "array_order": "x,y,z",
+  "shape": [
+    80,
+    80,
+    50
+  ],
+  "targets": [
+    {
+      "name": "I1",
+      "centre_mm": [
+        12.5,
+        11,
+        12.5
+      ],
+      "diameter_mm": 10,
+      "mua": 0.02,
+      "voxel_count": 498,
+      "voxelised_centre_mm": [
+        12.5,
+        11.0,
+        12.5
+      ],
+      "voxelised_volume_mm3": 498.0
+    },
+    {
+      "name": "I2",
+      "centre_mm": [
+        -12.5,
+        -11,
+        37.5
+      ],
+      "diameter_mm": 10,
+      "mua": 0.005,
+      "voxel_count": 498,
+      "voxelised_centre_mm": [
+        -12.5,
+        -11.0,
+        37.5
+      ],
+      "voxelised_volume_mm3": 498.0
+    }
+  ],
+  "classification": "known ground truth, not reconstruction"
+}

@@ -1,0 +1,12 @@
+{
+  "offsets": 56,
+  "sources": 9,
+  "pairs": 504,
+  "valid_pairs": 492,
+  "physical_patch_mm": [
+    3,
+    3
+  ],
+  "paper_patch": "3x3 camera pixels; physically different from this pilot",
+  "reconstruction": "not performed: 3x3 source grid validates extraction, not reliable depth sampling"
+}

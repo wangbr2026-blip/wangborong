@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-03",
+  "runs": 38,
+  "photons_total": 220700000,
+  "wall_seconds": 69.454632199966,
+  "kernel_seconds": 68.228,
+  "max_energy_closure_error": 7.485057462730538e-08,
+  "single": {
+    "high_only": {
+      "tag": "centre_high_only_10000000",
+      "case": "high_only",
+      "nphoton": 10000000,
+      "seed": 20261103,
+      "source_xy_mm": [
+        0,
+        0
+      ],
+      "elapsed_s": 3.2165139999997336,
+      "stat": {
+        "runtime": 3208,
+        "nphoton": 10000000,
+        "energytot": 10000000.0,
+        "energyabs": 3787117.1455078125,
+        "normalizer": 1.0000000116860974e-07,
+        "unitinmm": 1.0,
+        "workload": [
+          896.0
+        ]
+      },
+      "transmission_fraction": 9.224967888803893e-05,
+      "reflection_fraction": 0.6207617996057808,
+      "escaped_fraction": 0.6212883602534035,
+      "absorbed_fraction": 0.37871171455078123,
+      "energy_closure": 1.0000000748041846,
+      "t_end_s": 1e-08,
+      "output_shape": [
+        80,
+        80
+      ],
+      "unit": "exiting energy / launched energy / mm^2; all outgoing angles",
+      "data_file": "data\\mcx\\centre_high_only_10000000.npz",
+      "classification": "MCX Monte Carlo forward simulation; not reconstruction"
+    },
+    "homogeneous": {
+      "tag": "centre_homogeneous_10000000",
+      "case": "homogeneous",
+      "nphoton": 10000000,
+      "seed": 20261103,
+      "source_xy_mm": [
+        0,
+        0
+      ],
+      "elapsed_s": 3.4462948000000324,
+      "stat": {
+        "runtime": 3263,
+        "nphoton": 10000000,
+        "energytot": 10000000.0,
+        "energyabs": 3786113.596862793,
+        "normalizer": 1.0000000116860974e-07,
+        "unitinmm": 1.0,
+        "workload": [
+          896.0
+        ]
+      },
+      "transmission_fraction": 9.320439039120658e-05,
+      "reflection_fraction": 0.6208541659049305,
+      "escaped_fraction": 0.621388705055374,
+      "absorbed_fraction": 0.3786113596862793,
+      "energy_closure": 1.0000000647416534,
+      "t_end_s": 1e-08,
+      "output_shape": [
+        80,
+        80
+      ],
+      "unit": "exiting energy / launched energy / mm^2; all outgoing angles",
+      "data_file": "data\\mcx\\centre_homogeneous_10000000.npz",
+      "classification": "MCX Monte Carlo forward simulation; not reconstruction"
+    },
+    "two_spheres": {
+      "tag": "centre_two_spheres_10000000",
+      "case": "two_spheres",
+      "nphoton": 10000000,
+      "seed": 20261103,
+      "source_xy_mm": [
+        0,
+        0
+      ],
+      "elapsed_s": 3.2685373999993317,
+      "stat": {
+        "runtime": 3253,
+        "nphoton": 10000000,
+        "energytot": 10000000.0,
+        "energyabs": 3787107.3932495117,
+        "normalizer": 1.0000000116860974e-07,
+        "unitinmm": 1.0,
+        "workload": [
+          896.0
+        ]
+      },
+      "transmission_fraction": 9.312694183653024e-05,
+      "reflection_fraction": 0.6207618114786999,
+      "escaped_fraction": 0.6212893355256235,
+      "absorbed_fraction": 0.3787107393249512,
+      "energy_closure": 1.0000000748505746,
+      "t_end_s": 1e-08,
+      "output_shape": [
+        80,
+        80
+      ],
+      "unit": "exiting energy / launched energy / mm^2; all outgoing angles",
+      "data_file": "data\\mcx\\centre_two_spheres_10000000.npz",
+      "classification": "MCX Monte Carlo forward simulation; not reconstruction"
+    }
+  },
+  "noise": {
+    "100000": {
+      "values": [
+        9.898489847898772e-05,
+        9.211696884506854e-05,
+        8.445822801484131e-05,
+        9.042839396372098e-05
+      ],
+      "mean": 9.149712232565463e-05,
+      "sample_sd": 5.976041467405623e-06,
+      "cv": 0.06531398272981549,
+      "independent_seeds": 4
+    },
+    "1000000": {
+      "values": [
+        9.341622133028209e-05,
+        9.47872821438167e-05,
+        9.337213367834906e-05,
+        9.24325734406292e-05
+      ],
+      "mean": 9.350205264826926e-05,
+      "sample_sd": 9.695095986618013e-07,
+      "cv": 0.010368858984399494,
+      "independent_seeds": 4
+    }
+  },
+  "high_vs_background_pct": -1.0243203127668576,
+  "two_vs_high_pct": 0.950965855996122,
+  "two_vs_background_pct": -0.08309539320119352,
+  "virtual_detector_pairs": 504,
+  "valid_virtual_detector_pairs": 492,
+  "reconstruction_status": "not run; sparse pilot source grid, MCX forward and detector extraction completed"
+}
