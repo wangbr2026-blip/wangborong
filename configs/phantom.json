@@ -1,0 +1,73 @@
+{
+  "name": "Carbone2020_local_pilot",
+  "date": "2026-11-03",
+  "length_unit": "mm",
+  "coefficient_unit": "mm^-1",
+  "lateral_domain_provenance": "80 x 80 mm is chosen for this local pilot; original MC lateral domain unspecified",
+  "domain_mm": [
+    80,
+    80,
+    50
+  ],
+  "voxel_mm": 1.0,
+  "origin": "x=y=0 at lateral centre, z=0 at entrance; voxel-centred coordinates",
+  "background": {
+    "mua": 0.01,
+    "mus": 5.0,
+    "g": 0.8,
+    "n": 1.4
+  },
+  "inclusions": [
+    {
+      "name": "I1",
+      "centre_mm": [
+        12.5,
+        11,
+        12.5
+      ],
+      "diameter_mm": 10,
+      "mua": 0.02
+    },
+    {
+      "name": "I2",
+      "centre_mm": [
+        -12.5,
+        -11,
+        37.5
+      ],
+      "diameter_mm": 10,
+      "mua": 0.005
+    }
+  ],
+  "refractive_index_provenance": "n=1.4 is an explicit pilot assumption, not a confirmed Carbone 2020 parameter",
+  "wavelength_nm_context": 785,
+  "source_world_mm": [
+    0,
+    0,
+    0.0001
+  ],
+  "source_direction": [
+    0,
+    0,
+    1
+  ],
+  "time_window_s": 1e-08,
+  "time_gate_s": 1e-08,
+  "single_nphoton": [
+    100000,
+    1000000,
+    10000000
+  ],
+  "scan_grid_mm": [
+    -15,
+    0,
+    15
+  ],
+  "scan_nphoton": 10000000,
+  "source_normalization": "unit weight launched just inside medium; entrance specular loss excluded",
+  "boundary": "air n=1 padding, Fresnel at tissue-air interfaces",
+  "seed_base": 20261103,
+  "autopilot": 0,
+  "nthread": 8192,
+  "nblocksize": 64
+}

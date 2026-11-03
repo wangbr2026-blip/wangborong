@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+data/
+logs/
+results/*.png
+results/*.html
+results/*.pdf
+results/*.csv
+results/*_runs.json
+results/summary.json
+results/run_manifest.json
+docs/*.pdf
+docs/*.docx

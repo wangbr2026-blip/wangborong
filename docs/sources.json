@@ -1,0 +1,54 @@
+{
+  "checked_date": "2026-11-03",
+  "sources": [
+    {
+      "title": "Carbone 2020 原论文",
+      "url": "https://doi.org/10.1088/2057-1976/abc633"
+    },
+    {
+      "title": "作者 TomosynthesisCCD 仓库",
+      "url": "https://github.com/nicocarbone/TomosynthesisCCD"
+    },
+    {
+      "title": "PMCX 官方安装和归一化说明",
+      "url": "https://pypi.org/project/pmcx/"
+    },
+    {
+      "title": "MCXLAB 官方参数说明",
+      "url": "https://github.com/fangq/mcx/blob/master/mcxlab/mcxlab.m"
+    },
+    {
+      "title": "Basler acA1300-60gm 官方参数",
+      "url": "https://docs.baslerweb.com/aca1300-60gm"
+    },
+    {
+      "title": "Basler pylon 软件入口",
+      "url": "https://www.baslerweb.com/en/downloads/software/"
+    },
+    {
+      "title": "pypylon 官方安装说明",
+      "url": "https://docs.baslerweb.com/pypylon-installation-and-environment-setup"
+    },
+    {
+      "title": "Thorlabs 635 nm 模块系列",
+      "url": "https://www.thorlabs.com/compact-laser-modules-with-phono-jack"
+    },
+    {
+      "title": "Thorlabs 50.8 mm 手动滑台系列",
+      "url": "https://www.thorlabs.com/linear-translation-stages-50.8-mm-2-inch--travel-manual-crossed-roller-bearings"
+    },
+    {
+      "title": "卓立汉光 TSAxx-B 电动滑台系列",
+      "url": "https://www.zolix.com.cn/Product_desc/1107_1540.html"
+    },
+    {
+      "title": "Sigma Intralipid I141 官方产品说明",
+      "url": "https://www.sigmaaldrich.com/DE/en/product/sigma/i141"
+    },
+    {
+      "title": "Hellma 50 mm 光程比色皿规格参考",
+      "url": "https://shop.hellmausa.com/products/100-os-50-mm-optical-glass-cuvette"
+    }
+  ],
+  "lens_file": "E:/硕士课题/论文/BL2.4 16-11（镜头参数）.pdf"
+}
