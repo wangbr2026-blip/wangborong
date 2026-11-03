@@ -3,7 +3,10 @@ from pathlib import Path
 import os,sys,runpy
 root=Path(__file__).resolve().parent
 env=root.parent/'运行环境'
-for p in [env/'packages',env/'mcx_packages',root/'src']:
+paths=[root/'src']
+if os.name=='nt' and sys.version_info[:2]==(3,12):
+    paths=[env/'packages',env/'mcx_packages']+paths
+for p in paths:
     if p.exists(): sys.path.insert(0,str(p))
 os.environ.setdefault('MPLCONFIGDIR',str(root/'logs/matplotlib_cache'))
 os.environ.setdefault('NUMBA_CACHE_DIR',str(root/'logs/numba_cache'))
