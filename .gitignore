@@ -1,4 +1,10 @@
 __pycache__/
+scan-stage2.log
+results/stage2/figures/
+results/stage2/*.html
+results/stage2/*.tiff
+results/stage2/*.npz
+results/stage2/samples_*.csv
 *.pyc
 data/
 logs/
