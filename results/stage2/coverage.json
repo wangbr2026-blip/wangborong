@@ -1,0 +1,18 @@
+{
+  "legacy3": {
+    "valid_offset": 492,
+    "valid_zero": 9
+  },
+  "wide3": {
+    "valid_offset": 504,
+    "valid_zero": 9
+  },
+  "wide5": {
+    "valid_offset": 1400,
+    "valid_zero": 25
+  },
+  "wide9": {
+    "valid_offset": 4536,
+    "valid_zero": 81
+  }
+}

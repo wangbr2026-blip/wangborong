@@ -1,0 +1,24 @@
+{
+  "model": "Basler acA1300-60gm",
+  "lens": "BL 2.4/16-11",
+  "hw": [
+    1026,
+    1282
+  ],
+  "pixel_um": 5.3,
+  "object_pixel_mm": 0.11695906432748537,
+  "field_xy_mm": [
+    149.94152046783626,
+    120
+  ],
+  "magnification": 0.045315,
+  "thin_lens_object_distance_mm": 369.0839677810879,
+  "psf_sigma_object_mm": 0.65,
+  "read_noise_e": 3,
+  "gain_e_per_dn": 1.5,
+  "offset_dn": 64,
+  "background_peak_expected_e": 1800,
+  "seed": 20261118,
+  "format": "Mono12 numeric range, stored in uint16 TIFF without bit packing",
+  "acquisition": "synthetic scenario; effective exposure-throughput scale fixed from uniform background; no hardware frames"
+}
